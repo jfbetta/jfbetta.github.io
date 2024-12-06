@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=root/page1/landing.html">
-  </head>
-  <body>
-    <p>Redirecting to <a href="root/page1/landing.html">root/page1/landing.html</a>...</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBetta</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../images/ML.png" alt="eBetta Title" class="title-img">
+            <a href="../Login/pro.html" class="bi bi-person-circle profile-icon"></a> 
+        </div>    
+
+        <h1>Hai, Hobbies</h1>
+        <h2>My Ponds</h2>
+
+        <div class="ponds-container">
+            <a href="../Ponds1/ponds.html" class="ponds-card">
+                <i class="bi bi-water"></i>
+                <span>Ponds 1</span></a>
+            <a href="../Ponds2/ponds.html" class="ponds-card">
+                <i class="bi bi-water"></i>
+                <span>Ponds 2</span></a>
+            <a href="../Ponds3/ponds.html" class="ponds-card">
+                <i class="bi bi-water"></i>
+                <span>Ponds 3</span></a>
+        </div>          
+
+        <section class="data">
+            <div class="recap-header d-flex justify-content-between align-items-center">
+                <h2>Data Recap</h2>
+                <div class="btn-group">
+                    <button type="button" class="bi bi-sliders" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">1 Hari</a></li>
+                        <li><a class="dropdown-item" href="#">1 Minggu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="data-container">
+                <button class="data-card">
+                    <i class="bi bi-moisture"></i>
+                    <span>PH Air</span>
+                </button>
+                <button class="data-card">
+                    <i class="bi bi-thermometer"></i>
+                    <span>Suhu Air</span>
+                </button>
+                <button class="data-card">
+                    <i class="bi bi-heart"></i>
+                    <span>Kesehatan</span>
+                </button>
+                <button class="data-card">
+                    <i class="bi bi-egg-fried"></i>
+                    <span>Pakan</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <div class="right">
+        <div class="prioritas">Maintenance List >
+            <div class="to-do">
+                <div class="do-item d-flex align-items-center justify-content-between">
+                    <span>Tambah Suplai Pakan</span>
+                    <button class="check-btn"><i class="bi bi-check-all"></i></button>
+                </div>
+                <div class="do-item d-flex align-items-center justify-content-between">
+                    <span>Bersihkan Sistem Aerasi</span>
+                    <button class="check-btn"><i class="bi bi-check-all"></i></button>
+                </div>
+                <div class="do-item d-flex align-items-center justify-content-between">
+                    <span>Refill Methylene Blue</span>
+                    <button class="check-btn"><i class="bi bi-check-all"></i></button>
+                </div>
+                <div class="do-item d-flex align-items-center justify-content-between">
+                    <span>Pangkas Tanaman Air</span>
+                    <button class="check-btn"><i class="bi bi-check-all"></i></button>
+                </div>
+                <div class="do-item d-flex align-items-center justify-content-between">
+                    <span>Bersihkan Alga</span>
+                    <button class="check-btn"><i class="bi bi-check-all"></i></button>
+                </div>
+            </div>            
+        </div>
+        
+        <div class="otak"></div>
+    
+        <div class="kontak">
+            <a href="mailto:ebettacompany@gmail.com" class="gmail" target="_blank">
+                <i class="bi bi-envelope"></i>
+            </a>
+    
+            <a href="https://www.instagram.com/ebetta.idn" class="gram" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+    
+            <a href="https://www.youtube.com/@controlyourponds" class="tube" target="_blank">
+                <i class="bi bi-youtube"></i>
+            </a>
+    
+            <a href="https://www.tiktok.com/@ebetta.idn" class="tok" target="_blank">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+    
+        <div class="copyright-text">
+            Copyright &copy; 2024 eBetta.
+        </div>
+    </div>
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
